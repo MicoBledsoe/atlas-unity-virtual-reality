@@ -1,5 +1,4 @@
 
-![LnqPig2U_400x400](https://github.com/MicoBledsoe/atlas-unity-virtual-reality/assets/108279441/11f58300-deb6-4e6e-9cbd-4940600f79e5)
 ![unity-company_feature](https://github.com/MicoBledsoe/atlas-unity-virtual-reality/assets/108279441/a6d6a176-5e76-4e06-8170-9377411fbb70)
 
 
