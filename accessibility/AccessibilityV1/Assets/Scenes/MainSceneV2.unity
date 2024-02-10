@@ -1929,7 +1929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickAudioName: Start
-  hoverEnterAudioName: uihoverenter
+  hoverEnterAudioName: UIStartSpeech
   hoverExitAudioName: 
 --- !u!114 &448256136
 MonoBehaviour:
@@ -3125,6 +3125,27 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: uihoverexit
     clip: {fileID: 8300000, guid: c00193f69f150124cbf3f5671b986b63, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UIStartSpeech
+    clip: {fileID: 8300000, guid: ed289678207aa0c488ee929852e21c12, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UIOptionsSpeech
+    clip: {fileID: 8300000, guid: 4551356af5a453b468c37bd32205111d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UIQuitSpeech
+    clip: {fileID: 8300000, guid: d473af4c69fbdd44facf1d312f1a33df, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -4913,8 +4934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e419a4d4b65dfb94bae6eddedee04926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickAudioName: uiclick
-  hoverEnterAudioName: uihoverenter
+  clickAudioName: UiQuit
+  hoverEnterAudioName: UIQuitSpeech
   hoverExitAudioName: 
 --- !u!114 &1101969940
 MonoBehaviour:
@@ -7286,8 +7307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e419a4d4b65dfb94bae6eddedee04926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickAudioName: uiclick
-  hoverEnterAudioName: uihoverenter
+  clickAudioName: UiOptions
+  hoverEnterAudioName: UIOptionsSpeech
   hoverExitAudioName: 
 --- !u!114 &1517863465
 MonoBehaviour:
@@ -8035,6 +8056,7 @@ GameObject:
   - component: {fileID: 1711661953}
   - component: {fileID: 1711661952}
   - component: {fileID: 1711661955}
+  - component: {fileID: 1711661956}
   m_Layer: 5
   m_Name: Magnify
   m_TagString: Untagged
@@ -8167,6 +8189,21 @@ MonoBehaviour:
   canvasToDisable: {fileID: 1406128369}
   mainCamera: {fileID: 9014170783998532098}
   objectToToggle: {fileID: 702231202}
+--- !u!114 &1711661956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711661950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e419a4d4b65dfb94bae6eddedee04926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickAudioName: Start
+  hoverEnterAudioName: uihoverenter
+  hoverExitAudioName: 
 --- !u!1 &1714666878
 GameObject:
   m_ObjectHideFlags: 0
@@ -11107,10 +11144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7acba169a4cc74ebd50a52295ed399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeTime: 2
-  gazeTimer: 0
-  currentGazeTarget: {fileID: 0}
-  audioSource: {fileID: 0}
 --- !u!114 &9014170783998532109
 MonoBehaviour:
   m_ObjectHideFlags: 0
