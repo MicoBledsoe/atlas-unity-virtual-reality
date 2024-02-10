@@ -2739,7 +2739,7 @@ GameObject:
   - component: {fileID: 691305698}
   - component: {fileID: 691305697}
   m_Layer: 0
-  m_Name: MagnificationSystem
+  m_Name: DynamicMagnificationSystemController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
