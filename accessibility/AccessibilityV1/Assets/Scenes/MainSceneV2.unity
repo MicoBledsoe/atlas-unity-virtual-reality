@@ -3151,6 +3151,27 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
+  - name: UIMagnifying
+    clip: {fileID: 8300000, guid: d07ec58eccaed3f49844590096f8ce3d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UISicknessAdjustments
+    clip: {fileID: 8300000, guid: cbe92fb8bdd176a478afd03caf0a8415, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UIVignetteBar
+    clip: {fileID: 8300000, guid: f99c007e2f91b534dbdbeb3fee3b5519, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
 --- !u!1 &846327981
 GameObject:
   m_ObjectHideFlags: 0
@@ -6904,6 +6925,7 @@ GameObject:
   - component: {fileID: 1463822769}
   - component: {fileID: 1463822770}
   - component: {fileID: 1463822771}
+  - component: {fileID: 1463822772}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -6996,6 +7018,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369719f53ae5580449dc8b04d9c8d664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1463822772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463822768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e419a4d4b65dfb94bae6eddedee04926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickAudioName: VignetteBar
+  hoverEnterAudioName: UIVignetteBar
+  hoverExitAudioName: 
 --- !u!1 &1475101405
 GameObject:
   m_ObjectHideFlags: 0
@@ -7044,6 +7081,7 @@ GameObject:
   - component: {fileID: 1507194363}
   - component: {fileID: 1507194362}
   - component: {fileID: 1507194361}
+  - component: {fileID: 1507194364}
   m_Layer: 5
   m_Name: SicknessAdjustmentDropdown
   m_TagString: Untagged
@@ -7171,6 +7209,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507194359}
   m_CullTransparentMesh: 1
+--- !u!114 &1507194364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507194359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e419a4d4b65dfb94bae6eddedee04926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickAudioName: SicknessAdjustments
+  hoverEnterAudioName: UISicknessAdjustments
+  hoverExitAudioName: 
 --- !u!1 &1517863459
 GameObject:
   m_ObjectHideFlags: 0
@@ -8201,8 +8254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e419a4d4b65dfb94bae6eddedee04926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickAudioName: Start
-  hoverEnterAudioName: uihoverenter
+  clickAudioName: UIMagnify
+  hoverEnterAudioName: UIMagnifying
   hoverExitAudioName: 
 --- !u!1 &1714666878
 GameObject:
